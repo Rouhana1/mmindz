@@ -1611,6 +1611,208 @@ figure {
   font-weight: 300;
 }
 
+.logo-section {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.slider {
+  background-color: #0000;
+  height: 180px;
+}
+
+.slide {
+  padding-left: 85px;
+  padding-right: 85px;
+}
+
+.slider-wrapper-wide {
+  display: flex;
+}
+
+.logo-wrapper-wide {
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  margin-top: 65px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+}
+
+.icon {
+  color: #000;
+}
+
+.card---brix {
+  background-color: #fff;
+  border: 1px solid #f7f7fb;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card---brix.logo-link---brix {
+  justify-content: center;
+  align-items: center;
+  max-height: 80%;
+  padding: 30px 36px;
+  transition: box-shadow .3s, transform .3s;
+  display: flex;
+  box-shadow: 0 3px 14px #4a3aff08, 0 -2px 4px #14142b05, 0 12px 24px #14142b0a;
+}
+
+.card---brix.logo-link---brix:hover {
+  transform: scale(.94);
+  box-shadow: 0 3px 50px #4a3aff08, 0 -2px 40px #14142b05, 0 12px 50px -20px #14142b05;
+}
+
+.logo-bar-main-wrapper---brix {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-top: -174px;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.cloneable-container-default {
+  background-color: #eeebdc;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 624px;
+  margin-top: 342px;
+  margin-bottom: 48px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  transform: translate(0);
+}
+
+.title---brix.text-single-bold---brix {
+  color: #170f49;
+  font-weight: 700;
+}
+
+.title---brix.text-single-bold---brix.logo-bar---brix {
+  color: #555;
+  margin-bottom: 32px;
+  font-size: 2.5rem;
+}
+
+.logo---brix {
+  width: auto;
+  max-width: 100%;
+  max-height: 55px;
+}
+
+.logo---brix.facebook---brix {
+  width: 120px;
+}
+
+.logo---brix.facebook---brix.shahid {
+  max-width: 120%;
+  max-height: 65px;
+}
+
+.logo---brix.facebook---brix.nestle {
+  width: 130px;
+  max-width: 120%;
+  height: 75px;
+  max-height: 75px;
+}
+
+.logo---brix.facebook---brix.eqdom {
+  max-width: 110%;
+  max-height: 75px;
+}
+
+.logo---brix.type3333 {
+  width: 170px;
+  max-width: 170%;
+  height: 85px;
+  max-height: 85px;
+}
+
+.logo---brix.type3333.edita {
+  width: 120px;
+  height: 55px;
+}
+
+.logo---brix.mbc {
+  width: 150px;
+  max-width: 130%;
+  height: 55px;
+  max-height: 75px;
+}
+
+.logo---brix.mbc.bein {
+  width: 160px;
+  max-width: 160%;
+  height: 75px;
+  max-height: 95px;
+}
+
+.logo---brix.mbc.radiomars {
+  width: 90px;
+  height: 100px;
+  max-height: 80px;
+}
+
+.logo---brix.mbc.bel {
+  height: 85px;
+  max-height: 85px;
+}
+
+.logo---brix.koora, .logo---brix.anghami, .logo---brix.awdoo {
+  max-width: 120%;
+}
+
+.logo---brix.hyundaio {
+  max-height: 95px;
+}
+
+.logo---brix.saham {
+  max-width: 120%;
+}
+
+.logo---brix.saham.groupe {
+  width: auto;
+  max-width: 120%;
+  max-height: 85px;
+}
+
+.logo---brix.ledieur {
+  width: 80px;
+  max-width: 120%;
+  max-height: 65px;
+}
+
+.container-default {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.logo-bar-v3-grid---brix {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-auto-columns: auto;
+  grid-auto-flow: column;
+  width: 100%;
+  margin-bottom: -16px;
+  display: grid;
+}
+
+.logo-bar-v3-grid---brix.type2 {
+  margin-top: 14px;
+}
+
 @media screen and (max-width: 991px) {
   .heading-style-h1 {
     width: 110%;
@@ -1655,6 +1857,10 @@ figure {
 
   .page-intro-title-small._222333.ffgfvf {
     font-size: 4vw;
+  }
+
+  .image._22image {
+    margin-left: -41px;
   }
 
   .image._22image.hfhh {
@@ -1874,6 +2080,31 @@ figure {
   .image-8 {
     left: 43px;
   }
+
+  .logo-wrapper-wide {
+    margin-top: 72px;
+  }
+
+  .title---brix.text-single-bold---brix.logo-bar---brix {
+    margin-bottom: 24px;
+  }
+
+  .logo---brix {
+    padding-left: 6px;
+    padding-right: 6px;
+    display: block;
+  }
+
+  .logo---brix.facebook---brix {
+    width: 140px;
+  }
+
+  .logo-bar-v3-grid---brix {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2060,11 +2291,53 @@ figure {
     margin-top: 15px;
     margin-bottom: 15px;
   }
+
+  .slider {
+    height: auto;
+  }
+
+  .slider-wrapper-wide {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .logo-wrapper-wide {
+    flex-wrap: wrap;
+    width: 30%;
+    margin-top: 20px;
+  }
+
+  .card---brix.logo-link---brix {
+    border-radius: 12px;
+    padding: 24px;
+  }
+
+  .logo---brix {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .logo-bar-v3-grid---brix {
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    grid-auto-flow: row;
+  }
 }
 
 @media screen and (max-width: 479px) {
+  .heading-style-h6.helloss {
+    color: var(--color--copy-dark);
+    top: -37.25px;
+  }
+
   .heading-style-h1 {
     font-size: 2.2rem;
+  }
+
+  .page-padding {
+    margin-top: -17px;
   }
 
   .header-button-wrapper, .header-button {
@@ -2078,6 +2351,10 @@ figure {
     font-size: 1.1em;
     top: 39px;
     left: -6px;
+  }
+
+  .section-intro {
+    margin-top: 115px;
   }
 
   .header-left {
@@ -2102,6 +2379,10 @@ figure {
     display: none;
   }
 
+  .page-intro-title-wrapper {
+    margin-top: 90px;
+  }
+
   .image._22image {
     width: 600%;
     margin-left: 0;
@@ -2112,7 +2393,8 @@ figure {
   }
 
   .features_component {
-    left: -79px;
+    margin-top: -28px;
+    left: -20px;
   }
 
   .card_index {
@@ -2121,13 +2403,26 @@ figure {
     font-size: 2rem;
   }
 
+  .card_index.idek {
+    width: 900px;
+    max-width: 300px;
+    font-size: 2.2rem;
+    position: relative;
+    top: 19px;
+    left: -34px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     left: -34px;
   }
 
   .text-tag {
+    margin-bottom: -11px;
+    padding-left: 0;
     font-size: 1rem;
+    position: relative;
+    left: -27px;
   }
 
   .features_card.card-1 {
@@ -2139,7 +2434,7 @@ figure {
   }
 
   .section.footer {
-    margin-top: 127px;
+    margin-top: 233px;
   }
 
   .heading-6 {
@@ -2181,6 +2476,10 @@ figure {
     margin-right: 0;
   }
 
+  .text-tag-2.is-tertiary {
+    font-size: 1rem;
+  }
+
   .team-wrap {
     width: 95%;
   }
@@ -2198,37 +2497,78 @@ figure {
   }
 
   .top-layer {
+    margin-left: 5px;
     padding: 15px;
   }
 
-  .flex-wrap, .section-2.spacer {
+  .flex-wrap {
+    margin-top: 386px;
+    display: block;
+  }
+
+  .text-block, .text-block.tb2, .text-block.tb3 {
     display: none;
+  }
+
+  .div-block-2 {
+    width: 360px;
+    position: relative;
+    top: 11px;
+    left: 15px;
+  }
+
+  .section-2.spacer {
+    display: none;
+  }
+
+  .text-weight-light-2 {
+    font-size: 2rem;
+  }
+
+  .slider {
+    height: auto;
+  }
+
+  .slider-wrapper-wide {
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .logo-wrapper-wide {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .card---brix.logo-link---brix {
+    margin-bottom: 26px;
+  }
+
+  .logo---brix.facebook---brix {
+    width: auto;
+  }
+
+  .container-default {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .logo-bar-v3-grid---brix {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto auto auto;
+    grid-auto-flow: row;
+    margin-bottom: 177px;
+  }
+
+  .image-9 {
+    margin-bottom: 35px;
   }
 }
 
-#w-node-_477881e8-a4b1-dd4b-570a-7c662808a315-1fbc44db, #w-node-_477881e8-a4b1-dd4b-570a-7c662808a327-1fbc44db, #w-node-_1fc272d8-8512-59ad-7f96-9292d2346197-1fbc44db, #w-node-_1fc272d8-8512-59ad-7f96-9292d23461b2-1fbc44db {
+#w-node-_477881e8-a4b1-dd4b-570a-7c662808a315-1fbc44db, #w-node-_477881e8-a4b1-dd4b-570a-7c662808a327-1fbc44db, #w-node-c9edff88-8626-2d30-4143-05c34c8ca9ac-1fbc44db, #w-node-_0a619e81-9f94-34b8-191f-055ce78df07d-1fbc44db, #w-node-_1fc272d8-8512-59ad-7f96-9292d2346197-1fbc44db, #w-node-_1fc272d8-8512-59ad-7f96-9292d23461b2-1fbc44db, #w-node-f15ff33d-5351-84ef-4257-82e94324f6b8-1fbc44db {
   grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
-#w-node-da7691a5-d02c-6185-252d-700cfd1de724-1fbc44db, #w-node-_8a45d7cb-fac1-2543-26ca-e43c6a3dba8d-1fbc44db, #w-node-cce13467-9c2c-26d4-3a61-6367f73002f8-1fbc44db, #w-node-_995b786f-0ad0-1cee-892d-8bcc8d85cf3e-1fbc44db {
-  justify-self: center;
-}
-
-#w-node-_1b0ee8ab-67aa-4958-3412-390477971ba5-1fbc44db {
-  place-self: auto center;
-}
-
-#w-node-_2474aaf2-f954-0b10-d670-bf78debd4d5a-1fbc44db, #w-node-c590d2f5-1ded-13fd-3196-8d8b4eb37b93-1fbc44db, #w-node-ba9e0f7d-e424-2954-c5fd-c2063378a777-1fbc44db {
-  justify-self: center;
-}
-
-#w-node-ba9e0f7d-e424-2954-c5fd-c2063378a779-1fbc44db {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  justify-self: center;
-}
-
-#w-node-ba9e0f7d-e424-2954-c5fd-c2063378a77b-1fbc44db, #w-node-ba9e0f7d-e424-2954-c5fd-c2063378a77d-1fbc44db, #w-node-f337529d-8933-316a-5454-d079a8b0d59a-1fbc44db, #w-node-_45e7540d-890a-0fd8-22db-54f2ed2ad4f4-1fbc44db {
-  justify-self: center;
 }
 
 
