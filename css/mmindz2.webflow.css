@@ -470,12 +470,13 @@ figure {
 
 .header-button.hed3 {
   background-color: #eeebdc;
+  width: 20%;
   margin-bottom: 8px;
   font-size: 1.1em;
-  display: flex;
+  display: block;
   position: relative;
   top: -7px;
-  left: -314px;
+  left: -68px;
 }
 
 .header-button._2 {
